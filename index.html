@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agentic AI Hackathon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Agentic AI Hackathon home">
+        <span class="brand-mark">A</span>
+        <span>Agentic AI Hackathon</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open menu" data-menu-button>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#tracks">Tracks</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#judging">Judging</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#register">Register</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Agentic AI Hackathon introduction">
+        <img class="hero-image" src="assets/agentic-ai-hero.png" alt="Builders collaborating in a futuristic AI hackathon workspace" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">48 hours • builders • autonomous workflows</p>
+          <h1>Build the agents that get real work done.</h1>
+          <p class="hero-copy">
+            Join developers, designers, founders, and AI explorers for an intense weekend of
+            agentic systems, tool use, workflow automation, and production-grade demos.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#register">Apply to join</a>
+            <a class="button secondary" href="#schedule">View schedule</a>
+          </div>
+          <div class="countdown" aria-label="Countdown to hackathon" data-event-date="2026-06-20T09:00:00+05:30">
+            <div>
+              <strong data-days>00</strong>
+              <span>Days</span>
+            </div>
+            <div>
+              <strong data-hours>00</strong>
+              <span>Hours</span>
+            </div>
+            <div>
+              <strong data-minutes>00</strong>
+              <span>Minutes</span>
+            </div>
+            <div>
+              <strong data-seconds>00</strong>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Hackathon highlights">
+        <div>
+          <strong>₹5L+</strong>
+          <span>Prize pool</span>
+        </div>
+        <div>
+          <strong>36</strong>
+          <span>Mentor slots</span>
+        </div>
+        <div>
+          <strong>4</strong>
+          <span>Challenge tracks</span>
+        </div>
+        <div>
+          <strong>Demo day</strong>
+          <span>Live judging</span>
+        </div>
+      </section>
+
+      <section class="section intro-section">
+        <div class="section-heading">
+          <p class="eyebrow">Why this hackathon</p>
+          <h2>Agentic AI is moving from prompts to outcomes.</h2>
+        </div>
+        <div class="intro-grid">
+          <article>
+            <h3>Ship useful systems</h3>
+            <p>Create agents that plan, call tools, inspect results, recover from errors, and complete measurable workflows.</p>
+          </article>
+          <article>
+            <h3>Build with mentors</h3>
+            <p>Get help from engineers, product leaders, and AI practitioners across architecture, UX, evaluation, and demos.</p>
+          </article>
+          <article>
+            <h3>Demo to operators</h3>
+            <p>Present to judges who care about reliable automation, practical impact, and teams that can execute quickly.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tracks">
+        <div class="section-heading">
+          <p class="eyebrow">Challenge tracks</p>
+          <h2>Pick a mission, then make it work end to end.</h2>
+        </div>
+        <div class="track-grid">
+          <article class="track-card">
+            <span>01</span>
+            <h3>Workplace Agents</h3>
+            <p>Email triage, meeting prep, CRM updates, research synthesis, support resolution, and other repeatable knowledge workflows.</p>
+          </article>
+          <article class="track-card">
+            <span>02</span>
+            <h3>Developer Agents</h3>
+            <p>Code review, test repair, migration helpers, release assistants, observability copilots, and repo-aware engineering tools.</p>
+          </article>
+          <article class="track-card">
+            <span>03</span>
+            <h3>Local Impact</h3>
+            <p>Agents for education, healthcare operations, public services, climate response, accessibility, and small business productivity.</p>
+          </article>
+          <article class="track-card">
+            <span>04</span>
+            <h3>Creative Automation</h3>
+            <p>Research-to-content pipelines, design assistants, campaign generators, interactive media, and human-in-the-loop creation tools.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section schedule-section" id="schedule">
+        <div class="section-heading">
+          <p class="eyebrow">Schedule</p>
+          <h2>A tight weekend rhythm for serious building.</h2>
+        </div>
+        <div class="schedule-tabs" role="tablist" aria-label="Hackathon days">
+          <button class="tab is-active" type="button" role="tab" aria-selected="true" data-tab="day1">Day 1</button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-tab="day2">Day 2</button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-tab="day3">Demo Day</button>
+        </div>
+        <div class="timeline is-active" data-panel="day1">
+          <div><time>09:00</time><span>Check-in, breakfast, and team matching</span></div>
+          <div><time>10:30</time><span>Opening keynote and challenge brief</span></div>
+          <div><time>12:00</time><span>Architecture clinic: tools, memory, evals</span></div>
+          <div><time>18:00</time><span>Mentor reviews and first milestone checkpoint</span></div>
+        </div>
+        <div class="timeline" data-panel="day2">
+          <div><time>09:30</time><span>Build sprint and model office hours</span></div>
+          <div><time>13:00</time><span>UX walkthroughs for agent flows</span></div>
+          <div><time>17:30</time><span>Reliability testing and eval clinic</span></div>
+          <div><time>22:00</time><span>Submission draft checkpoint</span></div>
+        </div>
+        <div class="timeline" data-panel="day3">
+          <div><time>09:00</time><span>Final polish and pitch coaching</span></div>
+          <div><time>12:00</time><span>Project submission deadline</span></div>
+          <div><time>14:00</time><span>Live demos and judge Q&A</span></div>
+          <div><time>17:30</time><span>Awards, networking, and closing</span></div>
+        </div>
+      </section>
+
+      <section class="section judging-section" id="judging">
+        <div class="section-heading">
+          <p class="eyebrow">Judging</p>
+          <h2>Great demos show autonomy, reliability, and usefulness.</h2>
+        </div>
+        <div class="score-grid">
+          <div>
+            <strong>30%</strong>
+            <span>Real-world usefulness</span>
+          </div>
+          <div>
+            <strong>25%</strong>
+            <span>Agentic design</span>
+          </div>
+          <div>
+            <strong>20%</strong>
+            <span>Technical execution</span>
+          </div>
+          <div>
+            <strong>15%</strong>
+            <span>User experience</span>
+          </div>
+          <div>
+            <strong>10%</strong>
+            <span>Pitch clarity</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resources-section">
+        <div class="section-heading">
+          <p class="eyebrow">Builder kit</p>
+          <h2>Everything teams need to move fast.</h2>
+        </div>
+        <div class="resource-list">
+          <a href="#register"><span>Starter repos</span><strong>Scaffold faster</strong></a>
+          <a href="#register"><span>Mentor office hours</span><strong>Unblock decisions</strong></a>
+          <a href="#register"><span>Evaluation templates</span><strong>Test reliability</strong></a>
+          <a href="#register"><span>Pitch guide</span><strong>Demo clearly</strong></a>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Fast answers before you apply.</h2>
+        </div>
+        <div class="faq-list">
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Who can participate?</span>
+            <p>Students, professionals, indie hackers, designers, founders, and builders from any background are welcome.</p>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Do I need a team?</span>
+            <p>No. Come solo or with a team of up to four. Team matching happens during check-in.</p>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>What should I bring?</span>
+            <p>Bring your laptop, charger, any APIs you plan to use, and a problem you would love to automate.</p>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Can we start before the event?</span>
+            <p>You may research and plan, but judging focuses on work built during the hackathon window.</p>
+          </button>
+        </div>
+      </section>
+
+      <section class="register-section" id="register">
+        <div>
+          <p class="eyebrow">Applications open</p>
+          <h2>Ready to build your agent?</h2>
+          <p>Seats are limited for teams that want to prototype, test, and demo meaningful agentic AI workflows.</p>
+        </div>
+        <a class="button primary" href="mailto:organizers@example.com?subject=Agentic%20AI%20Hackathon%20Application">Register interest</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Agentic AI Hackathon</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
